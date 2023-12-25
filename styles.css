@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: 'Oswald', sans-serif;
   min-height: 50vh;
   padding-top: 50px;
   display: flex;
@@ -41,5 +42,36 @@ h1 {
 }
 .head-counter button{
   margin-bottom: 20px;
+}
+
+button {
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn-inc {
+  background-color: #93c47d;
+  border-color: #93c47d;
+}
+
+.btn-dec {
+  background-color: #e06666;
+  border-color: #e06666;
+}
+
+.btn-clr {
+  background-color: #ffd966;
+  border-color: #ffd966;
+}
+
+.btn-rem {
+  background-color: coral;
+  border-color: coral;
+}
+
+.btn-add {
+  font-size: 20px;
+  background-color: peachpuff;
+  border-color: peachpuff;
+  padding: 10px;
 }
 

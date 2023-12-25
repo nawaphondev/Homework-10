@@ -3,11 +3,11 @@ const root = ReactDOM.createRoot(document.querySelector('#root'));
 const CounterComponent = () => {
     return (
         <div className="counter">
-            <button>+</button>
+            <button class="btn-inc">+</button>
             <h2>{0}</h2>
-            <button>-</button>
-            <button>0</button>
-            <button>X</button>
+            <button class="btn-dec">-</button>
+            <button class="btn-clr">0</button>
+            <button class="btn-rem">X</button>
         </div>
     );
 }
@@ -16,7 +16,7 @@ function App() {
     return (
         <div className="head-counter">
             <h1 className="Sum">Sum = 0</h1>
-            <button> Add Counter</button>
+            <button class="btn-add"> Add Counter</button>
             <CounterComponent />
         </div>
     );
